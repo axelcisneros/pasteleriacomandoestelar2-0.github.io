@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Comando Estelar 2.0</title>
+    <link rel="stylesheet" href="./pasteleria.css">
+</head>
+<body>
+    <section class="uno">
+        <header>
+            <img src="img/pasteleria.jpg" alt="logo" width="130px" height="130px">
+            <h1>Pasteleria Comando Estelar</h1>
+            <div class="unod">
+                <a href="pasteleria.html">Inicio</a><br>
+                <a href="pasteles.html">Pasteles</a><br>
+                <a href="pedido.html">Pedidos</a>
+            </div>
+        </header>
+    </section><br>
+    <section class="tres">
+        <h2>Realiza tu pedido</h2>
+        <form action="pedido.JS">
+            <label for="nom">Nombre/s</label><br>
+            <input class="tam" type="text" id="nom" name="nom" placeholder="NOMBRE/S"><br><br>
+            <label for="ape">Apellido/s</label><br>
+            <input class="tam" type="text" id="ape" name="ape" placeholder="APELLIDO/S"><br><br>
+            <label for="correo">Email</label><br>
+            <input class="tam" type="email" id="correo" name="correo" placeholder="emal@domin.com"><br><br>
+            <label for="tpastel">Tipo de pastel</label><br>
+            <select class="tam" id="tpastel" name="tpastel">
+                <option value="bautizo">Bautizo</option>
+                <option value="cumpleaños">Cumpleaños</option>
+                <option value="boda">Boda</option>
+                <option value="personal">Personalizado</option>
+            </select><br><br>
+            <label for="sabor">Sabor del Pastel</label><br>
+            <select class="tam" id="sabor" name="sabor">
+                <option value="chocolate">Chocolate</option>
+                <option value="tresleches">Tres Leches</option>
+                <option value="fresa">Fresa</option>
+                <option value="vainilla">Vainilla</option>
+            </select><br><br>
+            <label for="sabor1">Sabor de relleno</label><br>
+            <select class="tam" id="sabor1" name="sabor1">
+                <option value="chocolate">Chocolate</option>
+                <option value="durazno">Durazno</option>
+                <option value="fresa">Fresa</option>
+                <option value="moras">Moras</option>
+            </select><br><br>
+            <label for="perso">Personalizado</label><br>
+            <input class="persona" type="text" id="perso" name="perso" placeholder="Descripción detallada" maxlength="500"><br>
+            <input type="file" id="perso" name="perso" multiple><br><br>
+            <input class="but" type="submit">
+            <input class="but" type="reset"><br><br>
+        </form>
+    </section>
+</body>
+</html>
