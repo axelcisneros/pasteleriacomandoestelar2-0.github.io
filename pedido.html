@@ -13,7 +13,7 @@
             <img src="img/pasteleria.jpg" alt="logo" width="130px" height="130px">
             <h1>Pasteleria Comando Estelar</h1>
             <div class="unod">
-                <a href="index.html">Inicio</a><br>
+                <a href="pasteleria.html">Inicio</a><br>
                 <a href="pasteles.html">Pasteles</a><br>
                 <a href="pedido.html">Pedidos</a>
             </div>
@@ -22,10 +22,10 @@
     <section class="tres">
         <h2>Realiza tu pedido</h2>
         <form action="pedido.JS">
-            <label for="nom">Nombre/s</label><br>
-            <input class="tam" type="text" id="nom" name="nom" placeholder="NOMBRE/S"><br><br>
-            <label for="ape">Apellido/s</label><br>
-            <input class="tam" type="text" id="ape" name="ape" placeholder="APELLIDO/S"><br><br>
+            <label for="nom">Nombre Completo</label><br>
+            <input class="tam" type="text" id="nom" name="nom" placeholder="NOMBRE COMPLETO"><br><br>
+            <label for="tel1">Telefono a 10 dígitos</label><br>
+            <input class="tam" type="tel" id="tel1" name="tel1" placeholder="TELEFONO" maxlength="10"><br><br>
             <label for="correo">Email</label><br>
             <input class="tam" type="email" id="correo" name="correo" placeholder="emal@domin.com"><br><br>
             <label for="tpastel">Tipo de pastel</label><br>
@@ -55,6 +55,39 @@
             <input class="but" type="submit">
             <input class="but" type="reset"><br><br>
         </form>
-    </section>
+    </section><br>
+    <footer>
+        <table class="footh" border>
+            <tr>
+                <th>Dirección</th>
+                <th>Horarios de atención</th>
+                <th>Redes</th>
+            </tr>
+            <tr>
+                <td><a href="https://goo.gl/maps/JUxfmiZEvEZw95uT9" target="_blank">Jaime Torres Bodet 166-154, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX</a></td>
+                <td>
+                    <dl>
+                        <dt>Lunes a Viernes</dt>
+                        <dd>De 09:00 a 20:00</dd>
+                        <dt>Sabado y Domingo</dt>
+                        <dd>De 10:00 a 18:00</dd>
+                    </dl>
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/PasteleriaComandoEstelar2.0"><img src="./img/face.gif" alt="logo facebook" width="50px" height="50px"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/PasteleriaComandoEstelar2.0/"><img src="./img/ig.gif" alt="logo twitter" width="50px" height="50px"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/PasteleriaComandoEstelar2.0"><img src="./img/tw.gif" alt="logo instagram" width="50px" height="50px"></a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </footer>
 </body>
 </html>
