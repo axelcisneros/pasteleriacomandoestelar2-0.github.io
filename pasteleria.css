@@ -106,3 +106,23 @@ label{
     height: 90px;
     font-size: 25px;
 }
+table.pastelero{
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 10px;    
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: lightpink;
+    display: flex;
+    opacity: 0.8;
+}
+table.footh{
+    width: 100%;
+    font-size: x-large;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
